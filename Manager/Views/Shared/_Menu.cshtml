@@ -1,0 +1,17 @@
+﻿
+@{
+    var menus = new[]
+    {
+        //pagina de inicio
+        new { LinkText="Home", ActionName="Index",ControllerName="Home",Roles="all_roles" },
+        
+        //mantenedor de usuarios
+        new { LinkText="Usuarios", ActionName="Index",ControllerName="Account",Roles="sistema" },
+        
+        //mantenedor de tiendas
+        new { LinkText="Tiendas", ActionName="Index",ControllerName="Tienda",Roles="sistema" },
+        
+        new { LinkText="Acerca de", ActionName="About",ControllerName="Home",Roles="all_roles" },
+        new { LinkText="Contacto", ActionName="Contact",ControllerName="Home",Roles="all_roles" }
+    };
+}
